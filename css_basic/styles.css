@@ -8,9 +8,19 @@ main{
     flex: auto;
 }
 article{
-    display: flex;
+    background-color: aqua;
     flex: 2;
     overflow-y: auto;
+}
+.aritcle{
+    display: flex;
+    flex-direction: row;
+}
+.article-header{
+    background-color: yellow;
+}
+article img{
+    border-radius: 50px;
 }
 aside{
     display: flex;
