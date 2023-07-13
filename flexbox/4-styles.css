@@ -180,12 +180,12 @@
   /* Grid
       ============================= */
   
-   .row {
-    display: flex;
-    margin: 1rem;
-    padding: 0;
-    list-style: none;
-  }
+      ul.row {
+        display: flex;
+        margin: 1rem;
+        padding: 0;
+        list-style: none;
+      }
   
   [class*='col-'] {
     margin: 1rem;
