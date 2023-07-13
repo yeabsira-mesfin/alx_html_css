@@ -182,7 +182,7 @@
   
       ul.row {
         display: flex;
-        margin: 1rem;
+        margin: -1rem;
         padding: 0;
         list-style: none;
       }
