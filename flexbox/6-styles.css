@@ -199,26 +199,25 @@
   
  
   
-  .nav .nav-item {
+  .nav .nav-item + .nav-item {
     display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
+    margin: var(--nav-item-margin);
   }
   
-  .nav .nav-item + .nav-item {
+  .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    margin: var(--nav-item-margin);
     
-  
   }
   
   .nav .nav-link {
-    display: flex;
+    display: block;
     padding: 0.5rem 0;
     position: relative;
   }
@@ -238,7 +237,6 @@
     height: 0.2rem;
     transition: var(--transition-duration) var(--transition-cubic-bezier);
   }
-
   
   .nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
